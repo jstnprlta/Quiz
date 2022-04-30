@@ -11,7 +11,6 @@ var timeLeft = 50;
 //checks to see if theres anything in local storage then adds them to array, if not retun an empty array
 var allScores = localStorage.getItem("allScores")?JSON.parse(localStorage.getItem("allScores")):[]
 
-
 var timeCountdown;
 
 //function to countdown time
