@@ -1,0 +1,38 @@
+* {
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0px 5px 0px 5px; 
+    font-family: monospace;  
+}
+
+#container-form {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+#main-highscore-btn {
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: darkgreen;
+    color: whitesmoke;
+    border: groove;
+}
+
+#btn-start {
+    font-size: 24px;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
